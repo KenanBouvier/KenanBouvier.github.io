@@ -12,7 +12,7 @@
   <title>
     
       Kenan Bouvier
-    
+
   </title>
 
   <!-- CSS -->
@@ -21,13 +21,19 @@
   <link rel="stylesheet" href="/public/css/hyde.css">
   <link rel="stylesheet" href="/public/css/fatface.css">
 
+
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
-                                 <link rel="shortcut icon" href="/public/favicon.ico">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/img/favicons/site.webmanifest">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
-  <script type="text/javascript">window.onbeforeunload = function () {window.scrollTo(0, 0);}</script>
+
 </head>
 
 
@@ -46,12 +52,17 @@
 
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item" href="/">Home</a>
-        <a class="sidebar-nav-item" href="/categories/">Categories</a>
+
+        <a class="sidebar-nav-item active" href="/categories/">Categories</a>
 
             <a class="sidebar-nav-item" href="/about/">About</a>
           
 
+      <!-- <a class="sidebar-nav-item" href="https://github.com/KenanBouvier"><img src="/githuborange.png" width ="50" height="50"></a> -->
       <a class="sidebar-nav-item" href="https://github.com/KenanBouvier" target="_blank">GitHub</a>
+
+        <i class ="fab fa-github"></i>
+      </a>
       <span class="sidebar-nav-item" href></span>
     </nav>
 
@@ -60,46 +71,54 @@
 </div>
 <!-- SIDEBAR END -->
 
-  <div class="content container">
-    <div class="post">
+    <div class="content container">
+    	<h1 class="page-title" font-size="20">Categories</h1>
+    	<br>
+    	<br>
 
-      <!-- <h1 class="post-title" style="color:orange">Competitive Programming</h1> -->
-      <h1 class="post-title">Competitive Programming</h1>
-      <span class="post-date">Click on me!</span>
+      <!-- BEGINNING OF POST LIST -->
+      <div class="posts">
 
-      <!-- CONTENT START -->
 
-      <a href="https://github.com/KenanBouvier/Competitive-Programming"><img src="/githubred.png"></a>
+  <!-- START OF POST -->
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/categories/cybersecurity/">
+        Cyber Security
+      </a>
+    </h1>
 
-      <!-- CONTENT END -->
+    <!-- <span class="post-date">5 May 2022</span> -->
 
-    </div>
+    <!-- <p>Capture the flag contests and general Cyber </p> -->
   </div>
+  <!-- END OF POST -->
 
-  <div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
-    
-      <li>
-        <h3>
-          <a href="/2022/MONTH/POST/">
-            POST 1
-            <small>Post 1 date</small>
-          </a>
-        </h3>
-      </li>
-    
-      <li>
-        <h3>
-          <a href="/2022/MONTH/POST/">
-            POST 2
-            <small>Post 2 date</small>
-          </a>
-        </h3>
-      </li>
-    
-  </ul>
+     <!-- START OF POST -->
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/categories/web">
+        Web development
+      </a>
+    </h1>
+
+    <!-- <span class="post-date">14 May 2022</span> -->
+
+    <!-- <p>Websites :)</p> -->
+  </div>
+  <!-- END OF POST -->
+  
 </div>
+<!-- THE END :O -->
+
+<div class="pagination">
+  
+    <span class="pagination-item older">Older</span>
+  
+    <span class="pagination-item newer">Newer</span>
+  
+</div>
+    </div>
 
   </body>
 </html>
